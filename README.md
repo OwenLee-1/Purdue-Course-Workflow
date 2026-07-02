@@ -21,7 +21,7 @@ npm run lint
 ## MVP Roadmap
 
 - [x] Milestone 1 — Next.js project scaffold
-- [ ] Milestone 2 — Landing page (shadcn/ui)
+- [x] Milestone 2 — Landing page (shadcn/ui)
 - [ ] Milestone 3 — Supabase database
 - [ ] Milestone 4 — Google authentication
 - [ ] Milestone 5 — Dashboard

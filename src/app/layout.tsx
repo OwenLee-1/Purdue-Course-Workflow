@@ -13,9 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Purdue Course Workflow",
+  title: {
+    default: "Purdue Course Workflow",
+    template: "%s · Purdue Course Workflow",
+  },
   description:
-    "Schedule dashboard and sync companion for the BoilerClassPlan Chrome extension.",
+    "Schedule dashboard and sync companion for the BoilerClassPlan Chrome extension. Compare professors on UniTime and manage your schedule anywhere.",
 };
 
 export default function RootLayout({
