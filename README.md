@@ -9,7 +9,15 @@ Web dashboard and database companion for the [BoilerClassPlan](https://github.co
 - **Supabase** (planned — auth + PostgreSQL)
 - **Vercel** (hosting)
 
-## Development
+## Supabase setup (Milestone 3)
+
+1. Create a project at [supabase.com](https://supabase.com)
+2. Copy `.env.example` → `.env.local` and add your **Project URL** and **anon public key**
+3. Run `supabase/schema.sql` in Supabase → SQL Editor
+4. Verify: `npm run dev` then open `/api/health/supabase` (should return `{ "ok": true }`)
+
+Add the same env vars in Vercel → Project Settings → Environment Variables.
+
 
 ```bash
 npm install
